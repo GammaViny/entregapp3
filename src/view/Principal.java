@@ -1,5 +1,12 @@
 package view;
 
+/*
+Basicamente esse deadlock é de uma condição de espera circular, 
+pois ela está com um problema de impasse na sincronização das threads (2 ou mais) 
+e está tendo cada uma a posse de um recurso que o outro quer e vice-versa, 
+acabando que ambas requerem um recurso e ambas vão esperar uma pela outra e nenhuma por sua vez ocorrerá.
+*/
+
 public class Principal {
 	
 	static String str0 = "0";
